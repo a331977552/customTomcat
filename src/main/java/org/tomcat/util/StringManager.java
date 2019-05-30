@@ -2,6 +2,7 @@ package org.tomcat.util;
 
 import java.text.MessageFormat;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 import java.util.ResourceBundle;
 
@@ -10,6 +11,7 @@ public class StringManager {
 	private static Map<String, StringManager> map = new HashMap<>();
 
 	private ResourceBundle bundle;
+	private String packageName;
 
 	public String getString(String name) {
 		if (name == null)
@@ -53,7 +55,8 @@ public class StringManager {
 	}
 
 	private StringManager(String packageName) {
-		bundle = ResourceBundle.getBundle(packageName + ".LocalStrings");
+
+		this.packageName = packageName;
 	}
 
 	public static StringManager getManager(String packageName) {
@@ -63,11 +66,17 @@ public class StringManager {
 				stringManager = map.get(packageName);
 				if (stringManager == null) {
 					stringManager = new StringManager(packageName);
+					stringManager.init();
 					map.put(packageName, stringManager);
 				}
 			}
 		}
 		return stringManager;
 
+	}
+
+	private void init() {
+
+		bundle = ResourceBundle.getBundle(packageName + ".LocalStrings",new Locale("en","GB"));
 	}
 }

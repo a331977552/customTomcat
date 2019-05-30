@@ -22,6 +22,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.tomcat.util.ParameterMap;
+import org.tomcat.util.RequestUtil;
 
 public class HttpRequest implements HttpServletRequest {
 
@@ -31,6 +32,8 @@ public class HttpRequest implements HttpServletRequest {
 	protected ParameterMap<String,String> parameters = new ParameterMap<>();
 	private String uri;
 	private String method;
+	private String encoding;
+	private boolean parsed;
 
 	public String getMethod() {
 		return method;
@@ -102,8 +105,9 @@ public class HttpRequest implements HttpServletRequest {
 
 	@Override
 	public String getCharacterEncoding() {
-		// TODO Auto-generated method stub
-		return null;
+		if (encoding == null)
+			encoding = "ISO-8859-1";
+		return encoding;
 	}
 
 	@Override
@@ -136,24 +140,87 @@ public class HttpRequest implements HttpServletRequest {
 
 	@Override
 	public String getParameter(String name) {
+		if(!parsed)
+		{
+			parseParameters();
+		}
 		return parameters.get(name);
+	}
+
+	private void parseParameters() {
+		try {
+
+			RequestUtil.parseParameters(parameters,getQueryString(),getCharacterEncoding());
+
+			String contentType = getContentType();
+			if (contentType == null)
+				contentType = "";
+			int semicolon = contentType.indexOf(';');
+			if (semicolon >= 0) {
+				contentType = contentType.substring (0, semicolon).trim();
+			} else {
+				contentType = contentType.trim();
+			}
+			if ("POST".equals(getMethod()) && (getContentLength() > 0)
+					&& "application/x-www-form-urlencoded".equals(contentType)) {
+				try {
+					int max = getContentLength();
+					int len = 0;
+					byte[] buf = new byte[getContentLength()];
+					ServletInputStream is = getInputStream();
+					while (len < max) {
+						int next = is.read(buf, len, max - len);
+						if (next < 0 ) {
+							break;
+						}
+						len += next;
+					}
+					is.close();
+					if (len < max) {
+						throw new RuntimeException("Content length mismatch");
+					}
+					RequestUtil.parseParameters(parameters, buf, encoding);
+					parameters.setLocked(true);
+					parsed=true;
+				} catch (UnsupportedEncodingException ue){
+					ue.printStackTrace();
+				} catch (IOException e) {
+					throw new RuntimeException("Content read fail");
+				}
+			}
+
+
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+
 	}
 
 	@Override
 	public Enumeration getParameterNames() {
-		// TODO Auto-generated method stub
+		if(!parsed)
+		{
+			parseParameters();
+		}
 		return Collections.enumeration(parameters.keySet());
 	}
 
 	@Override
 	public String[] getParameterValues(String name) {
-		// TODO Auto-generated method stub
+		if(!parsed)
+		{
+			parseParameters();
+		}
 		return null;
 	}
 
 	@Override
 	public Map getParameterMap() {
 		// TODO Auto-generated method stub
+		if(!parsed)
+		{
+			parseParameters();
+		}
 		return parameters;
 	}
 
