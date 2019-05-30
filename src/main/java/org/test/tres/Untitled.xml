@@ -1,0 +1,1292 @@
+
+<PlaneModeLegGroup>
+	<Id>C5H8ZY660AL643HA</Id>
+	<OutwardList>
+		<Outward>
+			<Id>KDGXOXQT1AP885QO</Id>
+			<Index />
+			<CacheInfo>
+				<CacheDataAgeSeconds>0</CacheDataAgeSeconds>
+			</CacheInfo>
+			<Price>
+				<Type />
+				<Amount />
+				<Currency />
+				<AmountWithoutTax />
+				<PriceIncludesTax />
+				<TaxIsEstimated />
+				<TaxItemList />
+				<PassengerPriceList />
+			</Price>
+			<Duration />
+			<CO2EmissionsTonnes />
+			<SeatsRemaining />
+			<SegmentList>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>ED0</Code>
+						<Terminal />
+						<SupplierDisplayName>Edinburgh</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-06:56</DepartDate>
+					<ArriveDate>07/06/2019-11:39</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>London North Eastern Railway</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>GR516000</Code>
+						<Number>516000</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>ST2</Code>
+						<Terminal />
+						<SupplierDisplayName>London St Pancras</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-11:39</DepartDate>
+					<ArriveDate>07/06/2019-12:00</ArriveDate>
+					<Duration />
+					<TfOperator />
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator />
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId />
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>ST2</Code>
+						<Terminal />
+						<SupplierDisplayName>London St Pancras</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>BT0</Code>
+						<Terminal />
+						<SupplierDisplayName>Brighton</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-12:00</DepartDate>
+					<ArriveDate>07/06/2019-13:19</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>Thameslink And Gt Northern Tl</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>TL248700</Code>
+						<Number>248700</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+			</SegmentList>
+			<Vendor>
+				<Name>evolvi</Name>
+				<Url>https://bookit.evolviuat.co.uk</Url>
+			</Vendor>
+			<SupplierInfoList />
+		</Outward>
+		<Outward>
+			<Id>GJ7VVDA4M2XZ3D15</Id>
+			<Index />
+			<CacheInfo>
+				<CacheDataAgeSeconds>0</CacheDataAgeSeconds>
+			</CacheInfo>
+			<Price>
+				<Type />
+				<Amount />
+				<Currency />
+				<AmountWithoutTax />
+				<PriceIncludesTax />
+				<TaxIsEstimated />
+				<TaxItemList />
+				<PassengerPriceList />
+			</Price>
+			<Duration />
+			<CO2EmissionsTonnes />
+			<SeatsRemaining />
+			<SegmentList>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>ED0</Code>
+						<Terminal />
+						<SupplierDisplayName>Edinburgh</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-07:30</DepartDate>
+					<ArriveDate>07/06/2019-11:49</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>London North Eastern Railway</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>GR518000</Code>
+						<Number>518000</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>VI0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Victoria</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-11:49</DepartDate>
+					<ArriveDate>07/06/2019-12:30</ArriveDate>
+					<Duration />
+					<TfOperator />
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator />
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId />
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>VI0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Victoria</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>BT0</Code>
+						<Terminal />
+						<SupplierDisplayName>Brighton</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-12:44</DepartDate>
+					<ArriveDate>07/06/2019-13:37</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>Southern Gatwick Express</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>GX040900</Code>
+						<Number>040900</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+			</SegmentList>
+			<Vendor>
+				<Name>evolvi</Name>
+				<Url>https://bookit.evolviuat.co.uk</Url>
+			</Vendor>
+			<SupplierInfoList />
+		</Outward>
+		<Outward>
+			<Id>I77YW8QHHKESZ8CK</Id>
+			<Index />
+			<CacheInfo>
+				<CacheDataAgeSeconds>0</CacheDataAgeSeconds>
+			</CacheInfo>
+			<Price>
+				<Type />
+				<Amount />
+				<Currency />
+				<AmountWithoutTax />
+				<PriceIncludesTax />
+				<TaxIsEstimated />
+				<TaxItemList />
+				<PassengerPriceList />
+			</Price>
+			<Duration />
+			<CO2EmissionsTonnes />
+			<SeatsRemaining />
+			<SegmentList>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>ED0</Code>
+						<Terminal />
+						<SupplierDisplayName>Edinburgh</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-07:30</DepartDate>
+					<ArriveDate>07/06/2019-11:49</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>London North Eastern Railway</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>GR518000</Code>
+						<Number>518000</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>ST2</Code>
+						<Terminal />
+						<SupplierDisplayName>London St Pancras</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-11:49</DepartDate>
+					<ArriveDate>07/06/2019-12:10</ArriveDate>
+					<Duration />
+					<TfOperator />
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator />
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId />
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>ST2</Code>
+						<Terminal />
+						<SupplierDisplayName>London St Pancras</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>BT0</Code>
+						<Terminal />
+						<SupplierDisplayName>Brighton</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-12:20</DepartDate>
+					<ArriveDate>07/06/2019-13:42</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>Thameslink And Gt Northern Tl</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>TL132000</Code>
+						<Number>132000</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+			</SegmentList>
+			<Vendor>
+				<Name>evolvi</Name>
+				<Url>https://bookit.evolviuat.co.uk</Url>
+			</Vendor>
+			<SupplierInfoList />
+		</Outward>
+		<Outward>
+			<Id>OIEJ5B229CTDM6V7</Id>
+			<Index />
+			<CacheInfo>
+				<CacheDataAgeSeconds>0</CacheDataAgeSeconds>
+			</CacheInfo>
+			<Price>
+				<Type />
+				<Amount />
+				<Currency />
+				<AmountWithoutTax />
+				<PriceIncludesTax />
+				<TaxIsEstimated />
+				<TaxItemList />
+				<PassengerPriceList />
+			</Price>
+			<Duration />
+			<CO2EmissionsTonnes />
+			<SeatsRemaining />
+			<SegmentList>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>ED0</Code>
+						<Terminal />
+						<SupplierDisplayName>Edinburgh</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-08:00</DepartDate>
+					<ArriveDate>07/06/2019-12:40</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>London North Eastern Railway</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>GR522000</Code>
+						<Number>522000</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>VI0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Victoria</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-12:40</DepartDate>
+					<ArriveDate>07/06/2019-13:21</ArriveDate>
+					<Duration />
+					<TfOperator />
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator />
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId />
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>VI0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Victoria</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>BT0</Code>
+						<Terminal />
+						<SupplierDisplayName>Brighton</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-13:25</DepartDate>
+					<ArriveDate>07/06/2019-14:32</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name>Southern</Name>
+						<Code>ZZ28</Code>
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>Southern</Name>
+						<Code>ZZ</Code>
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>SN799100</Code>
+						<Number>799100</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+			</SegmentList>
+			<Vendor>
+				<Name>evolvi</Name>
+				<Url>https://bookit.evolviuat.co.uk</Url>
+			</Vendor>
+			<SupplierInfoList />
+		</Outward>
+		<Outward>
+			<Id>BTWXWW0KM7RQWWS4</Id>
+			<Index />
+			<CacheInfo>
+				<CacheDataAgeSeconds>0</CacheDataAgeSeconds>
+			</CacheInfo>
+			<Price>
+				<Type />
+				<Amount />
+				<Currency />
+				<AmountWithoutTax />
+				<PriceIncludesTax />
+				<TaxIsEstimated />
+				<TaxItemList />
+				<PassengerPriceList />
+			</Price>
+			<Duration />
+			<CO2EmissionsTonnes />
+			<SeatsRemaining />
+			<SegmentList>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>ED0</Code>
+						<Terminal />
+						<SupplierDisplayName>Edinburgh</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-08:30</DepartDate>
+					<ArriveDate>07/06/2019-12:49</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>London North Eastern Railway</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>GR524000</Code>
+						<Number>524000</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>VI0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Victoria</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-12:49</DepartDate>
+					<ArriveDate>07/06/2019-13:30</ArriveDate>
+					<Duration />
+					<TfOperator />
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator />
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId />
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>VI0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Victoria</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>BT0</Code>
+						<Terminal />
+						<SupplierDisplayName>Brighton</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-13:44</DepartDate>
+					<ArriveDate>07/06/2019-14:37</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>Southern Gatwick Express</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>GX041100</Code>
+						<Number>041100</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+			</SegmentList>
+			<Vendor>
+				<Name>evolvi</Name>
+				<Url>https://bookit.evolviuat.co.uk</Url>
+			</Vendor>
+			<SupplierInfoList />
+		</Outward>
+		<Outward>
+			<Id>FO6Q0YPA1VG4DTOX</Id>
+			<Index />
+			<CacheInfo>
+				<CacheDataAgeSeconds>0</CacheDataAgeSeconds>
+			</CacheInfo>
+			<Price>
+				<Type />
+				<Amount />
+				<Currency />
+				<AmountWithoutTax />
+				<PriceIncludesTax />
+				<TaxIsEstimated />
+				<TaxItemList />
+				<PassengerPriceList />
+			</Price>
+			<Duration />
+			<CO2EmissionsTonnes />
+			<SeatsRemaining />
+			<SegmentList>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>ED0</Code>
+						<Terminal />
+						<SupplierDisplayName>Edinburgh</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-08:30</DepartDate>
+					<ArriveDate>07/06/2019-12:49</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>London North Eastern Railway</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>GR524000</Code>
+						<Number>524000</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>ST2</Code>
+						<Terminal />
+						<SupplierDisplayName>London St Pancras</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-12:49</DepartDate>
+					<ArriveDate>07/06/2019-13:10</ArriveDate>
+					<Duration />
+					<TfOperator />
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator />
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId />
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>ST2</Code>
+						<Terminal />
+						<SupplierDisplayName>London St Pancras</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>BT0</Code>
+						<Terminal />
+						<SupplierDisplayName>Brighton</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-13:20</DepartDate>
+					<ArriveDate>07/06/2019-14:42</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>Thameslink And Gt Northern Tl</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>TL132200</Code>
+						<Number>132200</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+			</SegmentList>
+			<Vendor>
+				<Name>evolvi</Name>
+				<Url>https://bookit.evolviuat.co.uk</Url>
+			</Vendor>
+			<SupplierInfoList />
+		</Outward>
+		<Outward>
+			<Id>RHXWT45C3U0VLZZS</Id>
+			<Index />
+			<CacheInfo>
+				<CacheDataAgeSeconds>0</CacheDataAgeSeconds>
+			</CacheInfo>
+			<Price>
+				<Type />
+				<Amount />
+				<Currency />
+				<AmountWithoutTax />
+				<PriceIncludesTax />
+				<TaxIsEstimated />
+				<TaxItemList />
+				<PassengerPriceList />
+			</Price>
+			<Duration />
+			<CO2EmissionsTonnes />
+			<SeatsRemaining />
+			<SegmentList>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>ED0</Code>
+						<Terminal />
+						<SupplierDisplayName>Edinburgh</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-09:30</DepartDate>
+					<ArriveDate>07/06/2019-13:49</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>London North Eastern Railway</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>GR528000</Code>
+						<Number>528000</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>KG0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Kings Cross</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>VI0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Victoria</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-13:49</DepartDate>
+					<ArriveDate>07/06/2019-14:30</ArriveDate>
+					<Duration />
+					<TfOperator />
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator />
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId />
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+				<Segment>
+					<Origin>
+						<Type>trainstation</Type>
+						<Code>VI0</Code>
+						<Terminal />
+						<SupplierDisplayName>London Victoria</SupplierDisplayName>
+						<TrainStationCode />
+					</Origin>
+					<Destination>
+						<Type>trainstation</Type>
+						<Code>BT0</Code>
+						<Terminal />
+						<SupplierDisplayName>Brighton</SupplierDisplayName>
+						<TrainStationCode />
+					</Destination>
+					<DepartDate>07/06/2019-14:44</DepartDate>
+					<ArriveDate>07/06/2019-15:37</ArriveDate>
+					<Duration />
+					<TfOperator>
+						<Name />
+						<Code />
+					</TfOperator>
+					<TfVendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ135</Code>
+					</TfVendingOperator>
+					<Operator>
+						<Name>Southern Gatwick Express</Name>
+						<Code />
+					</Operator>
+					<VendingOperator>
+						<Name>evolvi</Name>
+						<Code>ZZ</Code>
+					</VendingOperator>
+					<FlightId>
+						<Code>GX041300</Code>
+						<Number>041300</Number>
+					</FlightId>
+					<TravelClass>
+						<TfClass>Economy With Restrictions</TfClass>
+						<SupplierClass>Advance Single</SupplierClass>
+						<SupplierClassDescription>Only valid on booked London North
+							Eastern Railway services and required connecting services.</SupplierClassDescription>
+						<SupplierFareBasisCode />
+						<SupplierRBDCode />
+					</TravelClass>
+					<AircraftType>
+						<AircraftName />
+						<AircraftCode />
+					</AircraftType>
+					<SupplierInfoList />
+					<StopList />
+					<SegmentMayEndWithAStop>false</SegmentMayEndWithAStop>
+				</Segment>
+			</SegmentList>
+			<Vendor>
+				<Name>evolvi</Name>
+				<Url>https://bookit.evolviuat.co.uk</Url>
+			</Vendor>
+			<SupplierInfoList />
+		</Outward>
+	</OutwardList>
+	<ReturnList />
+	<Price>
+		<Type />
+		<Amount>72.00</Amount>
+		<Currency>GBP</Currency>
+		<AmountWithoutTax />
+		<PriceIncludesTax>true</PriceIncludesTax>
+		<TaxIsEstimated>false</TaxIsEstimated>
+		<TaxItemList />
+		<PassengerPriceList>
+			<PassengerPrice>
+				<Amount>72.00</Amount>
+				<Currency>GBP</Currency>
+				<PriceIncludesTax>true</PriceIncludesTax>
+				<TaxItemList />
+				<Age>29</Age>
+			</PassengerPrice>
+		</PassengerPriceList>
+	</Price>
+	<SupplierInfoList />
+	<SubMerchant />
+	<MinimumCardChargeList />
+	<CardChargeList />
+	<LuggageChargeList />
+	<SpeedyBoardingChargeList />
+	<CheckInChargeList />
+</PlaneModeLegGroup>

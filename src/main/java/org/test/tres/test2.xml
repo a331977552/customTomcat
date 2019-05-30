@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfferPriceRS TimeStamp="2019-05-30T13:59:36.745"
+	Target="Production" Version="17.2"
+	xmlns="http://www.iata.org/IATA/EDIST/2017.2">
+	<Document>
+		<ReferenceVersion>1</ReferenceVersion>
+	</Document>
+	<Success />
+	<ShoppingResponseID>
+		<ResponseID>27bf34e8-82e3-11e9-8582-6fbe7004b728</ResponseID>
+	</ShoppingResponseID>
+	<PricedOffer
+		OfferID="OF28ef025d-82e3-11e9-8582-3d1380a63515" Owner="BE">
+		<TotalPrice>
+			<SimpleCurrencyPrice Code="GBP">1219.96</SimpleCurrencyPrice>
+		</TotalPrice>
+		<OfferItem
+			OfferItemID="OFI28ef025d-82e3-11e9-8582-3d1380a635151">
+			<TotalPriceDetail>
+				<TotalAmount>
+					<SimpleCurrencyPrice Code="GBP">609.96</SimpleCurrencyPrice>
+				</TotalAmount>
+				<BaseAmount Code="GBP">578.50</BaseAmount>
+				<Taxes>
+					<Total Code="GBP">31.46</Total>
+					<Breakdown>
+						<Tax>
+							<Amount Code="GBP">3.25</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AD;GB</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">10.09</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AS;UB</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">1.50</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AE;JD</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">0.11</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>CO;OG</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">0.76</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>DP;QV</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">3.25</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AD;GB</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">10.09</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AS;UB</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">1.50</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AE;JD</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">0.13</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>CO;OG</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">0.78</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>DP;QV</Description>
+						</Tax>
+					</Breakdown>
+				</Taxes>
+			</TotalPriceDetail>
+			<Service ServiceID="SV1">
+				<PassengerRefs>PX1</PassengerRefs>
+				<FlightRefs>FL1 FL2</FlightRefs>
+			</Service>
+			<FareDetail>
+				<PassengerRefs>PX1</PassengerRefs>
+				<Price>
+					<TotalAmount>
+						<SimpleCurrencyPrice Code="GBP">609.96</SimpleCurrencyPrice>
+					</TotalAmount>
+					<BaseAmount>578.50</BaseAmount>
+					<Taxes>
+						<Total Code="GBP">31.46</Total>
+						<Breakdown>
+							<Tax>
+								<Amount Code="GBP">3.25</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AD;GB</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">10.09</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AS;UB</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">1.50</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AE;JD</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">0.11</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>CO;OG</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">0.76</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>DP;QV</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">3.25</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AD;GB</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">10.09</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AS;UB</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">1.50</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AE;JD</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">0.13</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>CO;OG</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">0.78</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>DP;QV</Description>
+							</Tax>
+						</Breakdown>
+					</Taxes>
+				</Price>
+				<FareComponent>
+					<FareBasis>
+						<FareBasisCode>
+							<Code>WWWWSS</Code>
+						</FareBasisCode>
+						<CabinType>
+							<CabinTypeCode>W</CabinTypeCode>
+							<CabinTypeName>W</CabinTypeName>
+						</CabinType>
+					</FareBasis>
+					<PriceClassRef>PC1</PriceClassRef>
+					<SegmentRefs>SEG1</SegmentRefs>
+				</FareComponent>
+				<FareComponent>
+					<FareBasis>
+						<FareBasisCode>
+							<Code>WWWWSS</Code>
+						</FareBasisCode>
+						<CabinType>
+							<CabinTypeCode>W</CabinTypeCode>
+							<CabinTypeName>W</CabinTypeName>
+						</CabinType>
+					</FareBasis>
+					<PriceClassRef>PC1</PriceClassRef>
+					<SegmentRefs>SEG2</SegmentRefs>
+				</FareComponent>
+			</FareDetail>
+		</OfferItem>
+		<OfferItem
+			OfferItemID="OFI28ef025d-82e3-11e9-8582-3d1380a635152">
+			<TotalPriceDetail>
+				<TotalAmount>
+					<SimpleCurrencyPrice Code="GBP">610.00</SimpleCurrencyPrice>
+				</TotalAmount>
+				<BaseAmount Code="GBP">578.50</BaseAmount>
+				<Taxes>
+					<Total Code="GBP">31.50</Total>
+					<Breakdown>
+						<Tax>
+							<Amount Code="GBP">3.25</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AD;GB</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">10.09</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AS;UB</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">1.50</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AE;JD</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">0.13</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>CO;OG</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">0.78</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>DP;QV</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">3.25</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AD;GB</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">10.09</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AS;UB</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">1.50</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>AE;JD</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">0.13</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>CO;OG</Description>
+						</Tax>
+						<Tax>
+							<Amount Code="GBP">0.78</Amount>
+							<TaxType>TAX</TaxType>
+							<Description>DP;QV</Description>
+						</Tax>
+					</Breakdown>
+				</Taxes>
+			</TotalPriceDetail>
+			<Service ServiceID="SV2">
+				<PassengerRefs>PX1</PassengerRefs>
+				<FlightRefs>FL3 FL4</FlightRefs>
+			</Service>
+			<FareDetail>
+				<PassengerRefs>PX1</PassengerRefs>
+				<Price>
+					<TotalAmount>
+						<SimpleCurrencyPrice Code="GBP">610.00</SimpleCurrencyPrice>
+					</TotalAmount>
+					<BaseAmount>578.50</BaseAmount>
+					<Taxes>
+						<Total Code="GBP">31.50</Total>
+						<Breakdown>
+							<Tax>
+								<Amount Code="GBP">3.25</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AD;GB</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">10.09</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AS;UB</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">1.50</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AE;JD</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">0.13</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>CO;OG</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">0.78</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>DP;QV</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">3.25</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AD;GB</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">10.09</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AS;UB</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">1.50</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>AE;JD</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">0.13</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>CO;OG</Description>
+							</Tax>
+							<Tax>
+								<Amount Code="GBP">0.78</Amount>
+								<TaxType>TAX</TaxType>
+								<Description>DP;QV</Description>
+							</Tax>
+						</Breakdown>
+					</Taxes>
+				</Price>
+				<FareComponent>
+					<FareBasis>
+						<FareBasisCode>
+							<Code>WWWWSS</Code>
+						</FareBasisCode>
+						<CabinType>
+							<CabinTypeCode>W</CabinTypeCode>
+							<CabinTypeName>W</CabinTypeName>
+						</CabinType>
+					</FareBasis>
+					<PriceClassRef>PC1</PriceClassRef>
+					<SegmentRefs>SEG3</SegmentRefs>
+				</FareComponent>
+				<FareComponent>
+					<FareBasis>
+						<FareBasisCode>
+							<Code>WWWWSS</Code>
+						</FareBasisCode>
+						<CabinType>
+							<CabinTypeCode>W</CabinTypeCode>
+							<CabinTypeName>W</CabinTypeName>
+						</CabinType>
+					</FareBasis>
+					<PriceClassRef>PC1</PriceClassRef>
+					<SegmentRefs>SEG4</SegmentRefs>
+				</FareComponent>
+			</FareDetail>
+		</OfferItem>
+	</PricedOffer>
+	<DataLists>
+		<PassengerList>
+			<Passenger PassengerID="PX1">
+				<PTC>ADT</PTC>
+				<Individual>
+					<Gender>Female</Gender>
+					<NameTitle>MRS</NameTitle>
+					<GivenName>RIKKEECAROLINE</GivenName>
+					<Surname>NICOLAISEN</Surname>
+				</Individual>
+			</Passenger>
+		</PassengerList>
+		<FlightSegmentList>
+			<FlightSegment SegmentKey="SEG1">
+				<Departure>
+					<AirportCode>EDI</AirportCode>
+					<Date>2019-06-01</Date>
+					<Time>13:25</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>SOU</AirportCode>
+					<Date>2019-06-01</Date>
+					<Time>15:00</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>BE</AirlineID>
+					<FlightNumber>767</FlightNumber>
+				</MarketingCarrier>
+				<Equipment>
+					<AircraftCode>DH4</AircraftCode>
+				</Equipment>
+				<FlightDetail>
+					<FlightSegmentType>OUT</FlightSegmentType>
+					<FlightDuration>
+						<Value>P0Y0M0DT1H35M0.000S</Value>
+					</FlightDuration>
+				</FlightDetail>
+			</FlightSegment>
+			<FlightSegment SegmentKey="SEG2">
+				<Departure>
+					<AirportCode>SOU</AirportCode>
+					<Date>2019-06-01</Date>
+					<Time>16:00</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>ALC</AirportCode>
+					<Date>2019-06-01</Date>
+					<Time>19:55</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>BE</AirlineID>
+					<FlightNumber>1715</FlightNumber>
+				</MarketingCarrier>
+				<Equipment>
+					<AircraftCode>DH4</AircraftCode>
+				</Equipment>
+				<FlightDetail>
+					<FlightSegmentType>OUT</FlightSegmentType>
+					<FlightDuration>
+						<Value>P0Y0M0DT2H55M0.000S</Value>
+					</FlightDuration>
+				</FlightDetail>
+			</FlightSegment>
+			<FlightSegment SegmentKey="SEG3">
+				<Departure>
+					<AirportCode>ALC</AirportCode>
+					<Date>2019-06-04</Date>
+					<Time>12:20</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>SOU</AirportCode>
+					<Date>2019-06-04</Date>
+					<Time>13:50</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>BE</AirlineID>
+					<FlightNumber>1716</FlightNumber>
+				</MarketingCarrier>
+				<Equipment>
+					<AircraftCode>E95</AircraftCode>
+				</Equipment>
+				<FlightDetail>
+					<FlightSegmentType>IN</FlightSegmentType>
+					<FlightDuration>
+						<Value>P0Y0M0DT2H30M0.000S</Value>
+					</FlightDuration>
+				</FlightDetail>
+			</FlightSegment>
+			<FlightSegment SegmentKey="SEG4">
+				<Departure>
+					<AirportCode>SOU</AirportCode>
+					<Date>2019-06-04</Date>
+					<Time>16:50</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>EDI</AirportCode>
+					<Date>2019-06-04</Date>
+					<Time>18:25</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>BE</AirlineID>
+					<FlightNumber>772</FlightNumber>
+				</MarketingCarrier>
+				<Equipment>
+					<AircraftCode>DH4</AircraftCode>
+				</Equipment>
+				<FlightDetail>
+					<FlightSegmentType>IN</FlightSegmentType>
+					<FlightDuration>
+						<Value>P0Y0M0DT1H35M0.000S</Value>
+					</FlightDuration>
+				</FlightDetail>
+			</FlightSegment>
+		</FlightSegmentList>
+		<FlightList>
+			<Flight FlightKey="FL1">
+				<Journey>
+					<Time>P0Y0M0DT1H35M0.000S</Time>
+				</Journey>
+				<SegmentReferences>SEG1</SegmentReferences>
+			</Flight>
+			<Flight FlightKey="FL2">
+				<Journey>
+					<Time>P0Y0M0DT2H55M0.000S</Time>
+				</Journey>
+				<SegmentReferences>SEG2</SegmentReferences>
+			</Flight>
+			<Flight FlightKey="FL3">
+				<Journey>
+					<Time>P0Y0M0DT2H30M0.000S</Time>
+				</Journey>
+				<SegmentReferences>SEG3</SegmentReferences>
+			</Flight>
+			<Flight FlightKey="FL4">
+				<Journey>
+					<Time>P0Y0M0DT1H35M0.000S</Time>
+				</Journey>
+				<SegmentReferences>SEG4</SegmentReferences>
+			</Flight>
+		</FlightList>
+		<OriginDestinationList>
+			<OriginDestination OriginDestinationKey="OD1">
+				<DepartureCode>EDI</DepartureCode>
+				<ArrivalCode>ALC</ArrivalCode>
+				<TotalJourney>
+					<Time>P0Y0M0DT5H30M0.000S</Time>
+				</TotalJourney>
+				<FlightReferences>FL1 FL2</FlightReferences>
+			</OriginDestination>
+			<OriginDestination OriginDestinationKey="OD2">
+				<DepartureCode>ALC</DepartureCode>
+				<ArrivalCode>EDI</ArrivalCode>
+				<TotalJourney>
+					<Time>P0Y0M0DT7H5M0.000S</Time>
+				</TotalJourney>
+				<FlightReferences>FL3 FL4</FlightReferences>
+			</OriginDestination>
+		</OriginDestinationList>
+		<PriceClassList>
+			<PriceClass PriceClassID="PC1">
+				<Name>ALLIN</Name>
+				<FareBasisCode>
+					<Code>WWWWSS</Code>
+				</FareBasisCode>
+				<ClassOfService>
+					<Code>W</Code>
+					<MarketingName>ECONOMY</MarketingName>
+				</ClassOfService>
+			</PriceClass>
+		</PriceClassList>
+	</DataLists>
+</OfferPriceRS>
