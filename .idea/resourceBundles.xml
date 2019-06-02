@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ResourceBundleManager">
-    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/connector/http/LocalStrings.properties" />
-    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/connector/http/LocalStrings_en.properties" />
-    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/connector/http/LocalStrings_es.properties" />
-    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/connector/http/LocalStrings_ja.properties" />
-    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/util/LocalStrings.properties" />
-    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/util/LocalStrings_es.properties" />
-    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/util/LocalStrings_ja.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/catalina/connector/http/LocalStrings.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/catalina/connector/http/LocalStrings_en.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/catalina/connector/http/LocalStrings_es.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/catalina/connector/http/LocalStrings_ja.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/catalina/util/LocalStrings.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/catalina/util/LocalStrings_es.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tomcat/catalina/util/LocalStrings_ja.properties" />
   </component>
 </project>

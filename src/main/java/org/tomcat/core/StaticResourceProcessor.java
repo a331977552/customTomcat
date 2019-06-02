@@ -38,8 +38,7 @@ public class StaticResourceProcessor {
 				fis = new FileInputStream(file);
 				int ch ;
 				while ((ch=fis.read(buf, 0, BUFFER_SIZE)) != -1) {
-					arrayOutputStream.write(buf);
-				;
+					arrayOutputStream.write(buf,0,ch);
 				}
 				byte[] byteArray = arrayOutputStream.toByteArray();
 				outputStream.write(("HTTP/1.1 200 ok\r\nContent-Type: text/html\r\nContent-Length:"+byteArray.length+" \r\n\r\n").getBytes());

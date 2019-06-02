@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
+import java.net.InetAddress;
 import java.nio.charset.Charset;
 import java.security.Principal;
 import java.time.Instant;
@@ -34,6 +35,7 @@ public class HttpRequest implements HttpServletRequest {
 	private String method;
 	private String encoding;
 	private boolean parsed;
+	private InetAddress inetAddress;
 
 	public String getMethod() {
 		return method;
@@ -56,9 +58,17 @@ public class HttpRequest implements HttpServletRequest {
 	private String contentType;
 	//TODO
 	private String queryString;
+
+	public void setInputStream(InputStream inputStream) {
+		this.inputStream = inputStream;
+	}
+
 	public HttpRequest(InputStream inputStream) {
 		super();
 		this.inputStream = inputStream;
+	}
+
+	public HttpRequest() {
 	}
 
 	public void parse() {
@@ -250,13 +260,14 @@ public class HttpRequest implements HttpServletRequest {
 
 	@Override
 	public String getRemoteAddr() {
-		return null;
+		return inetAddress.getHostAddress();
 	}
 
 	@Override
 	public String getRemoteHost() {
 		// TODO Auto-generated method stub
-		return null;
+//		if(enabledHookup())
+		return getRemoteAddr();
 	}
 
 	@Override
@@ -381,8 +392,7 @@ public class HttpRequest implements HttpServletRequest {
 
 	@Override
 	public String getContextPath() {
-		// TODO Auto-generated method stub
-		return null;
+		return "/";
 	}
 
 	@Override
@@ -513,4 +523,8 @@ public class HttpRequest implements HttpServletRequest {
 		this.queryString=string;
 	}
 
+	public void setInet(InetAddress inetAddress) {
+		this.inetAddress=inetAddress;
+
+	}
 }

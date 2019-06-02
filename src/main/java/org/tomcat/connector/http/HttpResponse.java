@@ -1,12 +1,16 @@
 package org.tomcat.connector.http;
 
+import org.tomcat.catalina.Context;
 import org.tomcat.connector.ResponseStream;
 import org.tomcat.connector.ResponseWriter;
+import org.tomcat.util.CookieTools;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Locale;
 
 public class HttpResponse implements HttpServletResponse {
@@ -20,10 +24,20 @@ public class HttpResponse implements HttpServletResponse {
     private String encoding;
     private String contentType;
     private ResponseWriter writer;
+    private int contentLength;
+    private boolean committed;
+    private Context context;
+
+    public void setOutputStream(OutputStream outputStream) {
+        this.outputStream = outputStream;
+    }
 
     public HttpResponse(OutputStream outputStream) {
         super();
         this.outputStream = outputStream;
+    }
+
+    public HttpResponse() {
     }
 
     public void write(int b) throws IOException {
@@ -107,7 +121,7 @@ public class HttpResponse implements HttpServletResponse {
 
     @Override
     public void setContentLength(int len) {
-
+    this.contentLength=len;
     }
 
     @Override
@@ -145,7 +159,6 @@ public class HttpResponse implements HttpServletResponse {
 
     @Override
     public boolean isCommitted() {
-        // TODO Auto-generated method stub
         return false;
     }
 
@@ -165,7 +178,6 @@ public class HttpResponse implements HttpServletResponse {
 
     @Override
     public void setLocale(Locale loc) {
-        // TODO Auto-generated method stub
 
     }
 
@@ -279,6 +291,12 @@ public class HttpResponse implements HttpServletResponse {
         // TODO Auto-generated method stub
 
     }
+    /**
+     * Send the HTTP response headers, if this has not already occurred.
+     */
+    protected void sendHeaders() throws IOException {
+
+    }
 
 
     @Override
@@ -288,4 +306,14 @@ public class HttpResponse implements HttpServletResponse {
     }
 
 
+    public void finishResponse() {
+        if (writer != null) {
+            writer.flush();
+            writer.close();
+        }
+    }
+
+    public void setContext(Context context) {
+        this.context=context;
+    }
 }

@@ -136,6 +136,7 @@ public class SocketInputStream extends InputStream {
             try {
                 chr = read();
             } catch (IOException e) {
+                e.printStackTrace();
                 chr = -1;
             }
         } while ((chr == CR) || (chr == LF));
